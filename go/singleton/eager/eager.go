@@ -33,3 +33,4 @@ func newSingletonInstance() singleton.Singleton {
 func (i *singletonInstance) Do() {
 	fmt.Println(i.content)
 }
+
